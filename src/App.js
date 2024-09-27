@@ -2,12 +2,7 @@ import Hero from "./Component/Hero";
 import Navbar from "./Component/Navbar";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-
+import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 
 function App() {
   return (
@@ -27,3 +22,5 @@ function App() {
 }
 
 export default App;
+
+
