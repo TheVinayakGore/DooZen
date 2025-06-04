@@ -1,14 +1,50 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
   return (
-    <>
-        <div className="container d-flex flex-column p-5">
-            <h1 className='fw-bold mb-4'>About Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quaerat nam aut minus laboriosam. Repellendus enim nesciunt a amet assumenda ea, totam voluptates! Consequuntur nulla minima, non voluptate quasi magnam ea. Dignissimos sed delectus quibusdam aspernatur eveniet veritatis, maiores quis sit quidem impedit ducimus excepturi. Corporis voluptatem odio sint dicta ducimus. Adipisci ducimus sequi labore voluptas hic corporis porro error rerum laboriosam culpa maiores nostrum voluptatum voluptatem sunt, blanditiis, veniam placeat! Deserunt, sit iste? Eum magni eaque earum dignissimos molestiae quibusdam sit, consequatur aliquid recusandae assumenda veniam iste, optio blanditiis consectetur. Similique impedit vel rerum! Eos, voluptate explicabo! Officia delectus quibusdam vel, laborum nulla excepturi qui soluta quod! Atque eum nam accusantium harum iure necessitatibus fugiat quasi itaque, dolores est. Voluptatem obcaecati porro officia quasi dolore praesentium amet labore at iusto, distinctio est incidunt! Consequatur velit placeat, natus adipisci porro rerum hic voluptas delectus, deserunt similique totam ex! Praesentium sed commodi dolores nemo nesciunt accusantium. Fuga, in adipisci quasi perspiciatis a molestias cum ullam tempore eaque illo ut incidunt esse repellat sapiente consectetur neque voluptatem mollitia labore. Dolorem eaque delectus neque nisi deleniti id animi, ex molestiae provident cumque modi maiores amet omnis, autem obcaecati, reiciendis corrupti ipsa perspiciatis eos sit. Nesciunt assumenda tempora, ipsum eligendi explicabo facilis nemo atque quam voluptate quod illo. Excepturi illum similique aliquam ipsum. Tempore similique quidem, tenetur cupiditate laboriosam libero minus error maxime doloribus, unde nam facilis possimus nostrum sed suscipit in sunt sapiente! Atque reiciendis exercitationem perspiciatis vero, deleniti pariatur nobis totam earum ipsum, tenetur quam commodi fugiat possimus obcaecati facilis quidem, quod nemo quas quaerat eveniet soluta dolore aperiam dolorum. Veniam, a commodi! Id explicabo, laborum nihil exercitationem facilis fugiat ut labore facere veritatis optio odio sunt quo consectetur commodi dolorum illum impedit a eum placeat officiis? Sapiente architecto fuga tenetur. Dolorum incidunt dicta, quia illum quod a. Modi nostrum quidem, eaque odio nihil omnis nobis reiciendis consequuntur. Ducimus, esse nemo libero, autem quod optio quos excepturi dolorem ratione, labore officiis? Saepe accusantium explicabo dolore accusamus quibusdam dolores, dolorem sint eaque veniam numquam rerum fuga a iste. Et a nesciunt, iste repellendus accusantium numquam eos sed earum possimus blanditiis recusandae rerum labore eligendi molestias eius minima optio unde esse ab voluptate voluptatum nobis minus animi voluptatibus! Enim aut voluptatibus velit quidem eligendi voluptatem reiciendis mollitia! Accusamus sunt expedita natus. Eaque voluptate ipsum inventore atque, error harum itaque temporibus eius. Nobis illo laudantium voluptatibus saepe consequuntur voluptatem ratione incidunt amet vel quisquam, qui fugiat totam et velit ipsam sed repudiandae laborum alias earum molestias? Impedit iste quos dolores aliquam commodi itaque blanditiis quibusdam voluptatem provident, repellendus modi nobis cumque minima. Nostrum, blanditiis, tenetur eos nisi dicta asperiores, voluptate obcaecati dignissimos optio sed laudantium! Nam voluptates quisquam ab magni voluptatibus provident ipsam velit deleniti? Id fuga atque accusantium eaque dolor inventore iusto cumque obcaecati officiis ducimus qui possimus ut nesciunt repellat quod reiciendis suscipit temporibus, tempora ullam error, consequatur assumenda sint nulla! Optio ut amet omnis facere ea sit hic at reprehenderit, porro ullam!</p>
-        </div>
-    </>
-  )
-}
+    <div className="py-5">
+      <div className="text-center mb-5">
+        <h1 className="fw-bold">About DooZen</h1>
+        <p className="text-muted">Your Ultimate ToDo List Manager</p>
+      </div>
 
-export default About
+      <div className="row justify-content-center">
+        <div className="col-lg-10">
+          <p className="lead">
+            <strong>DooZen</strong> is a sleek, responsive, and easy-to-use ToDo web app that helps you stay organized and productive throughout your day. Whether you’re managing tasks for work, school, or personal life — DooZen provides a simple yet effective way to manage your tasks with clarity.
+          </p>
+
+          <h4 className="mt-5 fw-semibold">✨ Key Features:</h4>
+          <ul className="list-group list-group-flush mb-4">
+            <li className="list-group-item">✅ Add and view tasks with title and description</li>
+            <li className="list-group-item">🎯 Mark tasks as done with a single click</li>
+            <li className="list-group-item">🗑️ Delete tasks individually or clear all at once</li>
+            <li className="list-group-item">📱 Fully responsive and mobile-friendly UI</li>
+            <li className="list-group-item">⚡ Built with React and Bootstrap for performance & style</li>
+          </ul>
+
+          <h4 className="mt-5 fw-semibold">🚀 Why use DooZen?</h4>
+          <p>
+            DooZen is crafted for simplicity and speed. Unlike bloated task managers, it focuses only on what matters — capturing your tasks and helping you finish them. Whether you're a student, a developer, or anyone in between, DooZen keeps your life a little more zen.
+          </p>
+
+          <h4 className="mt-5 fw-semibold">🛠 Tech Stack</h4>
+          <p>
+            This app is built using modern web technologies including:
+          </p>
+          <ul>
+            <li>⚛️ React.js – Component-based UI</li>
+            <li>🎨 Bootstrap – For responsive design and layout</li>
+            <li>🧠 Local State – No backend needed</li>
+          </ul>
+
+          <p className="mt-4">
+            We're constantly working to improve DooZen. New features like task prioritization, categories, and reminders are coming soon!
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;
